@@ -1,6 +1,5 @@
-7 kyu
+// 7 kyu
 // Credit Card Mask
-
 
 function maskify(cc) {
   const charToMask = cc.slice(0, -4);
