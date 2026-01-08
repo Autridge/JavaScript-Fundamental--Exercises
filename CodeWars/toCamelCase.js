@@ -3,6 +3,7 @@
 
 function toCamelCase(str) {
   const arr = str.split(/_|-/);
+  console.log(arr);
   return arr
     .map((word, index) => {
       if (index === 0) {
@@ -12,3 +13,5 @@ function toCamelCase(str) {
     })
     .join("");
 }
+
+console.log(toCamelCase("test_controller"));
